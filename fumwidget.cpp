@@ -26,6 +26,7 @@
 #include <QPalette>
 
 #include <cmath>
+#include <ctime>
 
 #include "fumwidget.h"
 #include "ball.h"
