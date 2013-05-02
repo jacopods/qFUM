@@ -35,10 +35,10 @@ static const int MAX_BALLS = 2000;
 
 FUMWidget::FUMWidget(QWidget *parent)
     : QWidget(parent),
+      m_ballList(0),
       m_clock(0),
       m_vertScale(1),
-      m_span(0),
-      m_ballList(0)
+      m_span(0)
  {
      // Cosmetics
      setMinimumSize(QSize(200,200));
